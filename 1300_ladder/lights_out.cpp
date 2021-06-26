@@ -31,22 +31,22 @@ int main(){
 			cout<<" "<<a[i][j]<<"\n";
 			if(a[i][j]==1){
 				if(up==1){
-					cout<<"check:"<<i<<" "<<j<<"up"<< "\n";
+//					cout<<"check:"<<i<<" "<<j<<"up"<< "\n";
 
 					(ans[i-1][j]==1?ans[i-1][j]=0:ans[i-1][j]=1);
 				}
 				if(down==1){
-					cout<<"check:"<<i<<" "<<j<<"down" "\n";
+//					cout<<"check:"<<i<<" "<<j<<"down" "\n";
 					(ans[i+1][j]==1?ans[i+1][j]=0:ans[i+1][j]=1);
 
 				}
 			 	if(left==1){
-					cout<<"check:"<<i<<" "<<j<<"left"<<"\n";
+//					cout<<"check:"<<i<<" "<<j<<"left"<<"\n";
 
 					(ans[i][j-1]==1?ans[i][j-1]=0:ans[i][j-1]=1);
 				}
 			 	if(right==1){
-					cout<<"check:"<<i<<" "<<j<<"right"<<"\n";
+//					cout<<"check:"<<i<<" "<<j<<"right"<<"\n";
 
 					(ans[i][j+1]==1?ans[i][j+1]=0:ans[i][j+1]=1);
 					}
